@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F9C0FE628EFE1BD00E0108E /* itMessageSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C0FE528EFE1BD00E0108E /* itMessageSDK.docc */; };
+		8F9C0FEC28EFE1BD00E0108E /* itMessageSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C0FE128EFE1BD00E0108E /* itMessageSDK.framework */; };
+		8F9C0FF128EFE1BD00E0108E /* itMessageSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C0FF028EFE1BD00E0108E /* itMessageSDKTests.swift */; };
+		8F9C0FF228EFE1BD00E0108E /* itMessageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9C0FE428EFE1BD00E0108E /* itMessageSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9C105528F0253600E0108E /* IMSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C104D28F0253500E0108E /* IMSubject.swift */; };
+		8F9C105628F0253600E0108E /* IMObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C104E28F0253500E0108E /* IMObserver.swift */; };
+		8F9C105728F0253600E0108E /* IMWebSockerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C104F28F0253500E0108E /* IMWebSockerClient.swift */; };
+		8F9C105828F0253600E0108E /* IMQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C105028F0253500E0108E /* IMQueue.swift */; };
+		8F9C105928F0253600E0108E /* MessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C105128F0253500E0108E /* MessageBody.swift */; };
+		8F9C105A28F0253600E0108E /* IMManagerSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C105228F0253500E0108E /* IMManagerSubject.swift */; };
+		8F9C105B28F0253600E0108E /* AESCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C105328F0253600E0108E /* AESCode.swift */; };
+		8F9C105C28F0253600E0108E /* IMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C105428F0253600E0108E /* IMManager.swift */; };
+		F39B78E0135B3BC7EA77A048 /* Pods_itMessageSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F49674EDB66BF5FBDC251E5 /* Pods_itMessageSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F9C0FED28EFE1BD00E0108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F9C0FD828EFE1BD00E0108E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9C0FE028EFE1BD00E0108E;
+			remoteInfo = itMessageSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F49674EDB66BF5FBDC251E5 /* Pods_itMessageSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itMessageSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D30B81375F1DA4B107F645 /* Pods-itMessageSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itMessageSDK.debug.xcconfig"; path = "Target Support Files/Pods-itMessageSDK/Pods-itMessageSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9C0FE128EFE1BD00E0108E /* itMessageSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = itMessageSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9C0FE428EFE1BD00E0108E /* itMessageSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itMessageSDK.h; sourceTree = "<group>"; };
+		8F9C0FE528EFE1BD00E0108E /* itMessageSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = itMessageSDK.docc; sourceTree = "<group>"; };
+		8F9C0FEB28EFE1BD00E0108E /* itMessageSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itMessageSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9C0FF028EFE1BD00E0108E /* itMessageSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itMessageSDKTests.swift; sourceTree = "<group>"; };
+		8F9C104D28F0253500E0108E /* IMSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMSubject.swift; sourceTree = "<group>"; };
+		8F9C104E28F0253500E0108E /* IMObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMObserver.swift; sourceTree = "<group>"; };
+		8F9C104F28F0253500E0108E /* IMWebSockerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMWebSockerClient.swift; sourceTree = "<group>"; };
+		8F9C105028F0253500E0108E /* IMQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMQueue.swift; sourceTree = "<group>"; };
+		8F9C105128F0253500E0108E /* MessageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBody.swift; sourceTree = "<group>"; };
+		8F9C105228F0253500E0108E /* IMManagerSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMManagerSubject.swift; sourceTree = "<group>"; };
+		8F9C105328F0253600E0108E /* AESCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESCode.swift; sourceTree = "<group>"; };
+		8F9C105428F0253600E0108E /* IMManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMManager.swift; sourceTree = "<group>"; };
+		E02BAC1F19C21A945DC43072 /* Pods-itMessageSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itMessageSDK.release.xcconfig"; path = "Target Support Files/Pods-itMessageSDK/Pods-itMessageSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9C0FDE28EFE1BD00E0108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B78E0135B3BC7EA77A048 /* Pods_itMessageSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9C0FE828EFE1BD00E0108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C0FEC28EFE1BD00E0108E /* itMessageSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0BD33801290A1430764AC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F49674EDB66BF5FBDC251E5 /* Pods_itMessageSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F9C0FD728EFE1BD00E0108E = {
+			isa = PBXGroup;
+			children = (
+				8F9C0FE328EFE1BD00E0108E /* itMessageSDK */,
+				8F9C0FEF28EFE1BD00E0108E /* itMessageSDKTests */,
+				8F9C0FE228EFE1BD00E0108E /* Products */,
+				93916B14950E1008DF2927C0 /* Pods */,
+				3E0BD33801290A1430764AC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9C0FE228EFE1BD00E0108E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C0FE128EFE1BD00E0108E /* itMessageSDK.framework */,
+				8F9C0FEB28EFE1BD00E0108E /* itMessageSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9C0FE328EFE1BD00E0108E /* itMessageSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C105328F0253600E0108E /* AESCode.swift */,
+				8F9C105428F0253600E0108E /* IMManager.swift */,
+				8F9C105228F0253500E0108E /* IMManagerSubject.swift */,
+				8F9C104E28F0253500E0108E /* IMObserver.swift */,
+				8F9C105028F0253500E0108E /* IMQueue.swift */,
+				8F9C104D28F0253500E0108E /* IMSubject.swift */,
+				8F9C104F28F0253500E0108E /* IMWebSockerClient.swift */,
+				8F9C105128F0253500E0108E /* MessageBody.swift */,
+				8F9C0FE428EFE1BD00E0108E /* itMessageSDK.h */,
+				8F9C0FE528EFE1BD00E0108E /* itMessageSDK.docc */,
+			);
+			path = itMessageSDK;
+			sourceTree = "<group>";
+		};
+		8F9C0FEF28EFE1BD00E0108E /* itMessageSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C0FF028EFE1BD00E0108E /* itMessageSDKTests.swift */,
+			);
+			path = itMessageSDKTests;
+			sourceTree = "<group>";
+		};
+		93916B14950E1008DF2927C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85D30B81375F1DA4B107F645 /* Pods-itMessageSDK.debug.xcconfig */,
+				E02BAC1F19C21A945DC43072 /* Pods-itMessageSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F9C0FDC28EFE1BD00E0108E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C0FF228EFE1BD00E0108E /* itMessageSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F9C0FE028EFE1BD00E0108E /* itMessageSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9C0FF528EFE1BD00E0108E /* Build configuration list for PBXNativeTarget "itMessageSDK" */;
+			buildPhases = (
+				73DA0B1EB6E60C032754988F /* [CP] Check Pods Manifest.lock */,
+				8F9C0FDC28EFE1BD00E0108E /* Headers */,
+				8F9C0FDD28EFE1BD00E0108E /* Sources */,
+				8F9C0FDE28EFE1BD00E0108E /* Frameworks */,
+				8F9C0FDF28EFE1BD00E0108E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itMessageSDK;
+			productName = itMessageSDK;
+			productReference = 8F9C0FE128EFE1BD00E0108E /* itMessageSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F9C0FEA28EFE1BD00E0108E /* itMessageSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9C0FF828EFE1BD00E0108E /* Build configuration list for PBXNativeTarget "itMessageSDKTests" */;
+			buildPhases = (
+				8F9C0FE728EFE1BD00E0108E /* Sources */,
+				8F9C0FE828EFE1BD00E0108E /* Frameworks */,
+				8F9C0FE928EFE1BD00E0108E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9C0FEE28EFE1BD00E0108E /* PBXTargetDependency */,
+			);
+			name = itMessageSDKTests;
+			productName = itMessageSDKTests;
+			productReference = 8F9C0FEB28EFE1BD00E0108E /* itMessageSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F9C0FD828EFE1BD00E0108E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8F9C0FE028EFE1BD00E0108E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8F9C0FEA28EFE1BD00E0108E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F9C0FDB28EFE1BD00E0108E /* Build configuration list for PBXProject "itMessageSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F9C0FD728EFE1BD00E0108E;
+			productRefGroup = 8F9C0FE228EFE1BD00E0108E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9C0FE028EFE1BD00E0108E /* itMessageSDK */,
+				8F9C0FEA28EFE1BD00E0108E /* itMessageSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9C0FDF28EFE1BD00E0108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9C0FE928EFE1BD00E0108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73DA0B1EB6E60C032754988F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itMessageSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F9C0FDD28EFE1BD00E0108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C105728F0253600E0108E /* IMWebSockerClient.swift in Sources */,
+				8F9C105828F0253600E0108E /* IMQueue.swift in Sources */,
+				8F9C105528F0253600E0108E /* IMSubject.swift in Sources */,
+				8F9C105928F0253600E0108E /* MessageBody.swift in Sources */,
+				8F9C105B28F0253600E0108E /* AESCode.swift in Sources */,
+				8F9C105A28F0253600E0108E /* IMManagerSubject.swift in Sources */,
+				8F9C105C28F0253600E0108E /* IMManager.swift in Sources */,
+				8F9C0FE628EFE1BD00E0108E /* itMessageSDK.docc in Sources */,
+				8F9C105628F0253600E0108E /* IMObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9C0FE728EFE1BD00E0108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C0FF128EFE1BD00E0108E /* itMessageSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F9C0FEE28EFE1BD00E0108E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9C0FE028EFE1BD00E0108E /* itMessageSDK */;
+			targetProxy = 8F9C0FED28EFE1BD00E0108E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F9C0FF328EFE1BD00E0108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F9C0FF428EFE1BD00E0108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F9C0FF628EFE1BD00E0108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D30B81375F1DA4B107F645 /* Pods-itMessageSDK.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5PWXN249B4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.itmessage.client.itMessageSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F9C0FF728EFE1BD00E0108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02BAC1F19C21A945DC43072 /* Pods-itMessageSDK.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5PWXN249B4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.itmessage.client.itMessageSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F9C0FF928EFE1BD00E0108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PWXN249B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.itmessage.client.itMessageSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F9C0FFA28EFE1BD00E0108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PWXN249B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.itmessage.client.itMessageSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F9C0FDB28EFE1BD00E0108E /* Build configuration list for PBXProject "itMessageSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9C0FF328EFE1BD00E0108E /* Debug */,
+				8F9C0FF428EFE1BD00E0108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9C0FF528EFE1BD00E0108E /* Build configuration list for PBXNativeTarget "itMessageSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9C0FF628EFE1BD00E0108E /* Debug */,
+				8F9C0FF728EFE1BD00E0108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9C0FF828EFE1BD00E0108E /* Build configuration list for PBXNativeTarget "itMessageSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9C0FF928EFE1BD00E0108E /* Debug */,
+				8F9C0FFA28EFE1BD00E0108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F9C0FD828EFE1BD00E0108E /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - CryptoSwift (1.6.0)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - Starscream
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - Starscream
+
+SPEC CHECKSUMS:
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: 7c1f380a8e38407d4bc342966f53045abc1117cd
+
+COCOAPODS: 1.11.3
