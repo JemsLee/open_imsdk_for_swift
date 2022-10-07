@@ -95,15 +95,18 @@ import CommonCrypto
     var pingTimer:Timer?
     var lostMessageTimer:Timer?
     func startTimer() {
+        
         pingTimer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: { (_) in
             self.pingCheck()
         })
-        RunLoop.current.add(pingTimer!, forMode: .common)
-        
+//        RunLoop.current.add(pingTimer!, forMode: .common)
+        pingTimer?.fire()
         lostMessageTimer = Timer.scheduledTimer(withTimeInterval: 6, repeats: true, block: { (_) in
             self.sendLostMessage()
         })
-        RunLoop.current.add(lostMessageTimer!, forMode: .common)
+//        RunLoop.current.add(lostMessageTimer!, forMode: .common)
+        lostMessageTimer?.fire()
+        
     }
     
     //停止计时，清除对象
