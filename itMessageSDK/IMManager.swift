@@ -9,20 +9,20 @@ import Foundation
 import Starscream
 import CommonCrypto
 
-@objcMembers class IMManager: NSObject{
+open class IMManager: NSObject{
     
-    var imIpAndPort:String = ""
-    var fromUid:String = ""
-    var token:String = ""
-    var deviceId:String = ""
-    var secKey:String = ""
+    public var imIpAndPort:String = ""
+    public var fromUid:String = ""
+    public var token:String = ""
+    public var deviceId:String = ""
+    public var secKey:String = ""
     
     var iMWebSockerClient:IMWebSockerClient!
-    var iMManagerSubject:IMManagerSubject<String>?
+    public var iMManagerSubject:IMManagerSubject<String>?
     
     var messageQueue:MessageQueue = MessageQueue()
     
-    static var shared: IMManager = {
+    public static var shared: IMManager = {
         let instance = IMManager()
         return instance
     }()
@@ -99,13 +99,13 @@ import CommonCrypto
         pingTimer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: { (_) in
             self.pingCheck()
         })
-//        RunLoop.current.add(pingTimer!, forMode: .common)
-        pingTimer?.fire()
+        RunLoop.current.add(pingTimer!, forMode: .common)
+//        pingTimer?.fire()
         lostMessageTimer = Timer.scheduledTimer(withTimeInterval: 6, repeats: true, block: { (_) in
             self.sendLostMessage()
         })
-//        RunLoop.current.add(lostMessageTimer!, forMode: .common)
-        lostMessageTimer?.fire()
+        RunLoop.current.add(lostMessageTimer!, forMode: .common)
+//        lostMessageTimer?.fire()
         
     }
     

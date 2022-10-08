@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol IMSubject {
+public protocol IMSubject {
     func addObserver(observer: IMObserver)
     func removeObserver(observer: IMObserver)
     func notifyObservers<T>(with newValue: T)

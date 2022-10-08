@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol IMObserver : NSObjectProtocol {
+public protocol IMObserver : NSObjectProtocol {
     
     var id: Int { get }
     func onIMMessage<T>(with newValue: T)

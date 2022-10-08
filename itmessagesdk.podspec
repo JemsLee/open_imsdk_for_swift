@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A im clint compont of itmessagesdk. for iOS......   
                    DESC
 
-  spec.homepage     = "http://www.itmessagesdk.com"
+  spec.homepage     = "http://www.baidu.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "README.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/JemsLee/itmessagesdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "https://github.com/JemsLee/itmessagesdk/archive/refs/heads/main.zip"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "itMessageSDK/**/*.*"
+  spec.source_files  = "Classes", "itmessagesdk-main/itMessageSDK/*.*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

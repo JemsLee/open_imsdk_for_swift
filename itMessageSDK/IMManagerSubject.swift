@@ -6,34 +6,35 @@
 //
 
 import Foundation
-class IMManagerSubject<T>:IMSubject {
+open class IMManagerSubject<T>:NSObject, IMSubject {
     
-    func notifyObservers<T>(with newValue: T) {
+  
+    public func notifyObservers<T>(with newValue: T) {
         for observer in observers {
             observer.onIMMessage(with: newValue)
         }
     }
     
-    func notifyErrorObservers<T>(with newValue: T) {
+    public func notifyErrorObservers<T>(with newValue: T) {
         for observer in observers {
             observer.onIMError(with: newValue)
         }
     }
     
-    func publish(str:String){
+    public func publish(str:String){
         notifyObservers(with: str)
     }
     
-    func publishError(err:String){
+    public func publishError(err:String){
         notifyErrorObservers(with: err)
     }
     
     
-    var _value: T! = nil
+    public var _value: T! = nil
     
-    var _observers: [IMObserver] = []
+    public var _observers: [IMObserver] = []
     
-    var value: T {
+    public var value: T {
         get {
             return self._value
         }
@@ -42,7 +43,7 @@ class IMManagerSubject<T>:IMSubject {
         }
     }
     
-    var observers: [IMObserver] {
+    public var observers: [IMObserver] {
         set {
             self._observers = newValue
         }
@@ -51,11 +52,11 @@ class IMManagerSubject<T>:IMSubject {
         }
     }
     
-    func addObserver(observer: IMObserver) {
+    public func addObserver(observer: IMObserver) {
         observers.append(observer)
     }
     
-    func removeObserver(observer: IMObserver) {
+    public func removeObserver(observer: IMObserver) {
         observers = observers.filter{$0.id != observer.id }
     }
     
